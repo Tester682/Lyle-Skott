@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колекція - Lyle & Scott</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Lyle & Scott</div>
+        <nav>
+           <a href="index.html">Головна</a>
+            <a href="kolektsiya.html">Колекція</a>
+            <a href="">Розпродаж</a>
+            <a href="about.html">Про нас</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1> <img src="https://www.logo.wine/a/logo/Lyle_%26_Scott/Lyle_%26_Scott-Logo.wine.svg" width="250px" alt="Логотип Lyle & Scott"></h1>
+        <h1> Нова колекція </h1>
+        <p>Свіжі надходження British heritage у сучасному прочитанні</p>
+    </section>
+
+    <section class="products" id="products">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.sportsdirect.com/images/products/54536669_l.jpg" 
+                     alt="Lyle & Scott Tonal Eagle polo shirt black" 
+                     style="width:100%; height:100%; object-fit:contain; mix-blend-mode: multiply; padding: 20px;">
+            </div>
+            <div class="product-info">
+                <h3>Classic Polo Shirt</h3>
+                <p>Класичне поло чорного кольору</p>
+                <div class="price">1099 ₴</div>
+                <a href="#buy" class="buy-button"><span>Купити зараз</span></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="sale-badge">-15%</div>
+            <div class="product-image">
+                <img src="https://images.sportsdirect.com/images/products/53805903_l.jpg" 
+                     alt="Lyle & Scott zip through hoodie green" 
+                     style="width:100%; height:100%; object-fit:contain; mix-blend-mode: multiply; padding: 20px;">
+            </div>
+            <div class="product-info">
+                <h3>Zip Through Hoodie</h3>
+                <p>Зручне худі на блискавці (олива)</p>
+                <div class="price">2199 ₴</div>
+                <a href="#buy" class="buy-button"><span>Купити зараз</span></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.sportsdirect.com/images/products/48225418_l.jpg" 
+                     alt="Lyle & Scott Track Pants" 
+                     style="width:100%; height:100%; object-fit:contain; mix-blend-mode: multiply; padding: 20px;">
+            </div>
+            <div class="product-info">
+                <h3>Fleece Joggers</h3>
+                <p>Базові спортивні штани</p>
+                <div class="price">1899 ₴</div>
+                <a href="#buy" class="buy-button"><span>Купити зараз</span></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="sale-badge">-25%</div>
+            <div class="product-image">
+                <img src="https://images.sportsdirect.com/images/products/53917618_l.jpg" 
+                     alt="Lyle & Scott crew neck sweatshirt" 
+                     style="width:100%; height:100%; object-fit:contain; mix-blend-mode: multiply; padding: 20px;">
+            </div>
+            <div class="product-info">
+                <h3>Crew Neck Sweatshirt</h3>
+                <p>Фірмовий повсякденний світшот</p>
+                <div class="price">1599 ₴</div>
+                <a href="#buy" class="buy-button"><span>Купити зараз</span></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="email-subscription">
+        <form class="subscription-form" method="POST" action="#">
+            <h2>📧 Підпишіться на нашу розсилку</h2>
+            <p>Отримуйте ексклюзивні пропозиції та новини про нові товари!</p>
+            <div class="form-group">
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Введіть вашу електронну пошту" 
+                    required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    title="Введіть коректну email адресу">
+                <button type="submit">Підписатися</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Про нас</h4>
+                <p>Lyle & Scott - ваш надійний<br>партнер у світі моди</p>
+            </div>
+            <div class="footer-section">
+                <h4>Контакти</h4>
+                <p>Email: info@LyleScott.com<br>Тел: +380 XX XXX XX XX</p>
+            </div>
+            <div class="footer-section">
+                <h4>Графік роботи</h4>
+                <p>Пн-Пт: 9:00 - 21:00<br>Сб-Нд: 10:00 - 20:00</p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social-icon">📱</a>
+            <a href="#" class="social-icon">📧</a>
+            <a href="#" class="social-icon">🌐</a>
+        </div>
+        <p style="margin-top: 30px; opacity: 0.8;">© Lyle & Scott. Всі права захищені</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
